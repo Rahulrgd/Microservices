@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CurrencyExchangeServiceApplication",
+            "request": "launch",
+            "mainClass": "com.in28minutes.microservices.currencyexchangeservice.CurrencyExchangeServiceApplication",
+            "projectName": "currency-exchange-service"
+        },
+        {
+            "type": "java",
+            "name": "LimitsServiceApplication",
+            "request": "launch",
+            "mainClass": "com.in28minutes.microservices.limitsservice.LimitsServiceApplication",
+            "projectName": "limits-service"
+        },
+        {
+            "type": "java",
+            "name": "SpringCloudConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.in28minutes.microservices.springcloudconfigserver.SpringCloudConfigServerApplication",
+            "projectName": "spring-cloud-config-server"
+        }
+    ]
+}
