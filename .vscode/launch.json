@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.in28minutes.microservices.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
             "name": "NamingServerApplication",
             "request": "launch",
             "mainClass": "com.in28minutes.microservices.namingserver.NamingServerApplication",
