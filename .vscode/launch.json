@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NamingServerApplication",
+            "request": "launch",
+            "mainClass": "com.in28minutes.microservices.namingserver.NamingServerApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "CurrencyConversionServiceApplication",
             "request": "launch",
             "mainClass": "com.in28minutes.microservices.currencyconversionservice.CurrencyConversionServiceApplication",
