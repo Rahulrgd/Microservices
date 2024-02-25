@@ -1,0 +1,3 @@
+mvn spring-boot:build-image -DskipTests
+
+#Remember - Don't use -DskipTests in production
